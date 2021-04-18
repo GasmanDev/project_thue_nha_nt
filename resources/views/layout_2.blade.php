@@ -10,16 +10,16 @@
     <meta name="author" content="zytheme" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Real Estate html5 template">
-    <link href="{{asset('public/thuenha/assets/images/favicon/favicon.png')}}" rel="stylesheet">
+    <link href="{{asset('thuenha/assets/images/favicon/favicon.png')}}" rel="stylesheet">
 
     <!-- Fonts
     ============================================= -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- Stylesheets
     ============================================= -->
-    <link href="{{asset('public/thuenha/assets/css/external.css')}}" rel="stylesheet">
-    <link href="{{asset('public/thuenha/assets/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/thuenha/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('thuenha/assets/css/external.css')}}" rel="stylesheet">
+    <link href="{{asset('thuenha/assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('thuenha/assets/css/style.css')}}" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -48,8 +48,8 @@
 				<span class="icon-bar"></span>
 				</button>
                         <a class="logo" href="index.html">
-                    <img src="{{('public/thuenha/assets/images/logo/logo-light.png')}}" alt="logo-light" />
-                    {{-- <img src="{{('public/thuenha/assets/images/logo/logo-dark.png')}}" alt="logo-dark" /> --}}
+                    <img src="{{('thuenha/assets/images/logo/logo-light.png')}}" alt="logo-light" />
+                    {{-- <img src="{{('thuenha/assets/images/logo/logo-dark.png')}}" alt="logo-dark" /> --}}
 				</a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -392,21 +392,21 @@
                 <!-- Slide #1 -->
                 <div class="slide--item bg-overlay bg-overlay-dark3">
                     <div class="bg-section">
-                    <img src="{{('public/thuenha/assets/images/slider/slide-bg/3.jpg')}}" alt="background" />
+                    <img src="{{('thuenha/assets/images/slider/slide-bg/3.jpg')}}" alt="background" />
                     </div>
                 </div>
                 <!-- .slide-item end -->
                 <!-- Slide #2 -->
                 <div class="slide--item bg-overlay bg-overlay-dark3">
                     <div class="bg-section">
-                    <img src="{{('public/thuenha/assets/images/slider/slide-bg/1.jpg')}}" alt="background" />
+                    <img src="{{('thuenha/assets/images/slider/slide-bg/1.jpg')}}" alt="background" />
                     </div>
                 </div>
                 <!-- .slide-item end -->
                 <!-- Slide #3 -->
                 <div class="slide--item bg-overlay bg-overlay-dark3">
                     <div class="bg-section">
-                    <img src="{{('public/thuenha/assets/images/slider/slide-bg/3.jpg')}}" alt="background" />
+                    <img src="{{('thuenha/assets/images/slider/slide-bg/3.jpg')}}" alt="background" />
                     </div>
                 </div>
                 <!-- .slide-item end -->
@@ -437,7 +437,7 @@
                                 <div class="property--img">
                                     <a href="#">
 
-                    <img src="{{('public/thuenha/assets/images/properties/3.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/3.jpg')}}" alt="img-responsive" />
 
                             <span class="property--status">For Sale</span>
 </a>
@@ -465,7 +465,7 @@
                             <div class="property-item">
                                 <div class="property--img">
                                     <a href="#">
-                            <img src="{{('public/thuenha/assets/images/properties/11.jpg')}}" alt="img-responsive" />
+                            <img src="{{('thuenha/assets/images/properties/11.jpg')}}" alt="img-responsive" />
 
                             <span class="property--status">For Sale</span>
 							</a>
@@ -493,7 +493,7 @@
                             <div class="property-item">
                                 <div class="property--img">
                                     <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/5.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/5.jpg')}}" alt="img-responsive" />
 
                             <span class="property--status">For Rent</span>
 							</a>
@@ -521,7 +521,7 @@
                             <div class="property-item">
                                 <div class="property--img">
                                     <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/4.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/4.jpg')}}" alt="img-responsive" />
                             <span class="property--status">For Sale</span>
 							</a>
                                 </div>
@@ -548,7 +548,7 @@
                             <div class="property-item">
                                 <div class="property--img">
                                     <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/2.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/2.jpg')}}" alt="img-responsive" />
 
                             <span class="property--status">For Rent</span>
 </a>
@@ -576,7 +576,7 @@
                             <div class="property-item">
                                 <div class="property--img">
                                     <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/3.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/3.jpg')}}" alt="img-responsive" />
 
                             <span class="property--status">For Sale</span>
 </a>
@@ -632,7 +632,7 @@
                         <div class="feature-panel">
                             <div class="feature--icon">
 
-                    <img src="{{('public/thuenha/assets/images/features/icons/5.png')}}" alt="icon img" />
+                    <img src="{{('thuenha/assets/images/features/icons/5.png')}}" alt="icon img" />
 
                             </div>
                             <div class="feature--content">
@@ -647,7 +647,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="feature-panel">
                             <div class="feature--icon">
-                    <img src="{{('public/thuenha/assets/images/features/icons/6.png')}}" alt="icon img" />
+                    <img src="{{('thuenha/assets/images/features/icons/6.png')}}" alt="icon img" />
 
                             </div>
                             <div class="feature--content">
@@ -662,7 +662,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="feature-panel">
                             <div class="feature--icon">
-                    <img src="{{('public/thuenha/assets/images/features/icons/7.png')}}" alt="icon img" />
+                    <img src="{{('thuenha/assets/images/features/icons/7.png')}}" alt="icon img" />
 
                             </div>
                             <div class="feature--content">
@@ -700,7 +700,7 @@
                         <div class="property-city-item">
                             <div class="property--city-img">
                                 <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/city/1.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/city/1.jpg')}}" alt="img-responsive" />
 
                         <div class="property--city-overlay">
                             <div class="property--item-content">
@@ -720,7 +720,7 @@
                         <div class="property-city-item">
                             <div class="property--city-img">
                                 <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/city/2.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/city/2.jpg')}}" alt="img-responsive" />
 
                         <div class="property--city-overlay">
                             <div class="property--item-content">
@@ -744,7 +744,7 @@
                         <div class="property-city-item">
                             <div class="property--city-img">
                                 <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/city/3.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/city/3.jpg')}}" alt="img-responsive" />
 
                         <div class="property--city-overlay">
                             <div class="property--item-content">
@@ -764,7 +764,7 @@
                         <div class="property-city-item">
                             <div class="property--city-img">
                                 <a href="#">
-                    <img src="{{('public/thuenha/assets/images/properties/city/4.jpg')}}" alt="img-responsive" />
+                    <img src="{{('thuenha/assets/images/properties/city/4.jpg')}}" alt="img-responsive" />
 
                         <div class="property--city-overlay">
                             <div class="property--item-content">
@@ -818,7 +818,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 widget--about">
                             <div class="widget--content">
                                 <div class="footer--logo">
-                    <img src="{{('public/thuenha/assets//images/logo/logo-dark2.png')}}" alt="logo" />
+                    <img src="{{('thuenha/assets//images/logo/logo-dark2.png')}}" alt="logo" />
 
                                 </div>
                                 <p>86 Petersham town, New South Wales Wardll Street, Australia PA 6550</p>
@@ -906,9 +906,9 @@
 
     <!-- Footer Scripts
 ============================================= -->
-    <script src="{{asset('public/thuenha/assets/js/jquery-2.2.4.min.js')}}"></script>
-    <script src="{{asset('public/thuenha/assets/js/plugins.js')}}"></script>
-    <script src="{{asset('public/thuenha/assets/js/functions.js')}}"></script>
+    <script src="{{asset('thuenha/assets/js/jquery-2.2.4.min.js')}}"></script>
+    <script src="{{asset('thuenha/assets/js/plugins.js')}}"></script>
+    <script src="{{asset('thuenha/assets/js/functions.js')}}"></script>
 </body>
 
 </html>
