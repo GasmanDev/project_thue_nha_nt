@@ -118,7 +118,7 @@ class AdminController extends Controller
     }
 
     public function index(){
-    	return view('admin_login');
+    	return view('admin_login2');
     }
     public function show_dashboard(){
         $this->AuthLogin();
