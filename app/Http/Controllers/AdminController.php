@@ -26,7 +26,7 @@ class AdminController extends Controller
             $account_name = Login::where('admin_id',$authUser->user)->first();
             Session::put('admin_name',$account_name->admin_name);
             Session::put('admin_id',$account_name->admin_id);
-            return redirect('/dashboard')->with('message', 'Đăng nhập Admin thành công');  
+            return redirect('/quan-ly')->with('message', 'Đăng nhập Admin thành công');  
     }
     public function findOrCreateUser($users, $provider){
             $authUser = Social::where('provider_user_id', $users->id)->first();
@@ -61,7 +61,7 @@ class AdminController extends Controller
             Session::put('admin_name',$account_name->admin_name);
             Session::put('admin_id',$account_name->admin_id); 
           
-            return redirect('/dashboard')->with('message', 'Đăng nhập Admin thành công');
+            return redirect('/quan-ly')->with('message', 'Đăng nhập Admin thành công');
 
 
     }
@@ -79,7 +79,7 @@ class AdminController extends Controller
             $account_name = Login::where('admin_id',$account->user)->first();
             Session::put('admin_name',$account_name->admin_name);
             Session::put('admin_id',$account_name->admin_id);
-            return redirect('/dashboard')->with('message', 'Đăng nhập Admin thành công');
+            return redirect('/quan-ly')->with('message', 'Đăng nhập Admin thành công');
         }else{
 
             $hieu = new Social([
@@ -104,7 +104,7 @@ class AdminController extends Controller
             $account_name = Login::where('admin_id',$account->user)->first();
             Session::put('admin_name',$account_name->admin_name);
             Session::put('admin_id',$account_name->admin_id);
-            return redirect('/dashboard')->with('message', 'Đăng nhập Admin thành công');
+            return redirect('/quan-ly')->with('message', 'Đăng nhập Admin thành công');
         } 
     }
 
@@ -142,7 +142,7 @@ class AdminController extends Controller
             if($login_count>0){
                 Session::put('admin_name',$login->admin_name);
                 Session::put('admin_id',$login->admin_id);
-                return Redirect::to('/dashboard');
+                return Redirect::to('/quan-ly');
             }
         }else{
                 Session::put('message','Mật khẩu hoặc tài khoản bị sai.Làm ơn nhập lại');

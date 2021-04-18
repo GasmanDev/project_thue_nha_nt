@@ -22,7 +22,7 @@ Route::get('/chi-tiet/{product_slug}','ProductController@details_product');
 
 //Backend
 Route::get('/admin','AdminController@index');
-Route::get('/dashboard','AdminController@show_dashboard');
+Route::get('/quan-ly','AdminController@show_dashboard');
 Route::get('/logout','AdminController@logout');
 Route::post('/admin-dashboard','AdminController@dashboard');
 
@@ -134,6 +134,3 @@ Route::get('/add-slider','SliderController@add_slider');
 Route::post('/insert-slider','SliderController@insert_slider');
 Route::get('/unactive-slide/{slide_id}','SliderController@unactive_slide');
 Route::get('/active-slide/{slide_id}','SliderController@active_slide');
-
-
-
